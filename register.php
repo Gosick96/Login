@@ -36,7 +36,7 @@
 				$errores .= '<li> El correo ingresado ya existe </li>';				
 			}
 
-			// ENCRIPTANDO Y COMPARANDO CONTRASEÑAS LA BASE DE DATOS ↓↓↓
+			// ENCRIPTANDO Y COMPARANDO CONTRASEÑAS EN LA BASE DE DATOS ↓↓↓
 			$password = hash('sha512', $password);
 			$password2 = hash('sha512', $password2);
 
