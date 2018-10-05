@@ -26,7 +26,6 @@
 			':password' => $password
 		));
 		$resultado = $statement->fetch();
-		var_dump($resultado);
 
 		// SI LOS CAMPOS NO SON IGUALES ↓↓↓
 		if ($resultado != false) {
